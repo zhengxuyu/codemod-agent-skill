@@ -1,0 +1,14 @@
+{
+  "name": "ethers-v5-to-v6",
+  "version": "0.1.0",
+  "description": "Migrate ethers.js v5 BigNumber to native BigInt (ethers v6)",
+  "type": "module",
+  "scripts": {
+    "test": "npx codemod@latest jssg test -l typescript ./scripts/codemod.ts",
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@codemod.com/jssg-types": "latest",
+    "typescript": "latest"
+  }
+}
