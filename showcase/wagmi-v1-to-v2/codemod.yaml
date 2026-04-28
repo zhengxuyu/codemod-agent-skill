@@ -1,6 +1,6 @@
 schema_version: "1.0"
 
-name: "wagmi-v1-to-v2"
+name: "@zhengxuyu/wagmi-v1-to-v2"
 version: "0.1.0"
 description: "Migrate wagmi React hooks from v1 to v2"
 author: "zhengxuyu"
@@ -11,7 +11,7 @@ workflow: "workflow.yaml"
 targets:
   languages: ["tsx"]
 
-keywords: ["transformation", "migration"]
+keywords: ["transformation", "migration", "wagmi", "react", "hooks", "web3", "ethereum"]
 
 registry:
   access: "public"
