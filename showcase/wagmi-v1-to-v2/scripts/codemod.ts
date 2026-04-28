@@ -43,17 +43,10 @@ const codemod: Codemod<TSX> = async (root) => {
   const rootNode = root.root();
   const edits: Edit[] = [];
 
-  // 1. Rename in import specifiers from 'wagmi'
+  // 1. Rename in import specifiers
   const importSpecifiers = rootNode.findAll({
     rule: {
       kind: "import_specifier",
-      inside: {
-        kind: "import_statement",
-        has: {
-          field: "source",
-          regex: "wagmi",
-        },
-      },
     },
   });
 
