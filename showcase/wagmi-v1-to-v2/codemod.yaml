@@ -1,0 +1,20 @@
+schema_version: "1.0"
+
+name: "wagmi-v1-to-v2"
+version: "0.1.0"
+description: "Migrate wagmi React hooks from v1 to v2"
+author: "zhengxuyu"
+license: "MIT"
+workflow: "workflow.yaml"
+
+
+targets:
+  languages: ["tsx"]
+
+keywords: ["transformation", "migration"]
+
+registry:
+  access: "public"
+  visibility: "public"
+
+capabilities: []
